@@ -6,9 +6,9 @@ sudo pip install mmh3 (OMITIR SI YA ESTA INSTALADO)
 
 Luego ejecutar la herramienta (comando abajo)
 
-git clone https://github.com/themast3rs/favihash
-cd favihash
-python3 favihash.py -u URL
+#git clone https://github.com/themast3rs/favihash
+#cd favihash
+#python3 favihash.py -u URL
 
 Disfruta tus hashes! 
 
