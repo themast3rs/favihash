@@ -1,6 +1,6 @@
 # BIENVENIDO A FAVIHASH!
 # by TheMast3rs
-# Leer archivo "Readme.md" antes de usar
+# Leer archivo "README.md" antes de usar
 
 #Importar librerias
 import mmh3,requests,codecs,argparse
