@@ -1,6 +1,6 @@
 # BIENVENIDO A FAVIHASH!
 # by TheMast3rs
-# Leer archivo "README.md" antes de usar
+# Leer archivo "Readme.md" antes de usar
 
 #Importar librerias
 import mmh3,requests,codecs,argparse
@@ -34,5 +34,7 @@ def favihash():
 try:
 	res = requests.get(url+'/favicon.ico', timeout=30)
 	favihash()
+except requests.exceptions.MissingSchema as e:
+	print("ERROR: La URL no posee FAVICON o no existe, por favor verifique la URL")
 except requests.ConnectionError as e:
         print("ERROR: La URL no posee FAVICON o no existe, por favor verifique la URL")
